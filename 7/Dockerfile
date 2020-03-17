@@ -1,6 +1,6 @@
 ARG BASE_IMAGE_TAG
 
-FROM wodby/php:${BASE_IMAGE_TAG}
+FROM ozyrys/php:${BASE_IMAGE_TAG}
 
 ENV DRUSH_LAUNCHER_FALLBACK="/home/wodby/.composer/vendor/bin/drush" \
     \
